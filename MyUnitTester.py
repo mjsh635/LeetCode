@@ -7,7 +7,7 @@ class tester(unittest.TestCase): # Build a reuseable unit tester for all these p
         """
         func: function with a return
         *args: pass array of values to test
-        **kwargs: in format of tx=y, x = test numbers starting at 1,
+        **kwargs: in format of tx=y, x = test number starting at 1,
                                      y = correct answer
         """
         answers = []
